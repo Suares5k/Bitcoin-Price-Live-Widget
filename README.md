@@ -32,11 +32,11 @@ pip install -r requirements.txt
     No terminal, navegue até o diretório do seu projeto e execute o comando abaixo:
 
 ``
-pyinstaller --onefile --windowed --icon=icone.ico seu_script.py
+pyinstaller --onefile --windowed --noconsole seu_script.py
     ``
-    --onefile: Cria um único arquivo executável.
-    --windowed: Impede a abertura de uma janela de terminal ao executar o programa (ideal para interfaces gráficas).
-    --icon=icone.ico: Opcional, se você quiser adicionar um ícone personalizado ao executável.
+- --onefile: Cria um único arquivo executável.
+- --windowed: Impede a abertura de uma janela de terminal ao executar o programa (ideal para interfaces gráficas).
+- --icon=icone.ico: Opcional, se você quiser adicionar um ícone personalizado ao executável.
 `
     Após a execução do PyInstaller, o arquivo .exe será gerado na pasta dist dentro do diretório do seu projeto.
 

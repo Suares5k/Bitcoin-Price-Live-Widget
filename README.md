@@ -24,25 +24,26 @@ Antes de executar o programa, certifique-se de que você possui o **Python** ins
 ```bash
 pip install -r requirements.txt
 ``````````
-Gerando o Arquivo Executável (.exe)
-
+`## **Gerando o Arquivo Executável (.exe)**
+    ````
     Após garantir que todas as dependências estão instaladas, você pode gerar o arquivo executável usando o PyInstaller.
-
+``
     No terminal, navegue até o diretório do seu projeto e execute o comando abaixo:
 
+``
 pyinstaller --onefile --windowed --icon=icone.ico seu_script.py
-
+    ``
     --onefile: Cria um único arquivo executável.
     --windowed: Impede a abertura de uma janela de terminal ao executar o programa (ideal para interfaces gráficas).
     --icon=icone.ico: Opcional, se você quiser adicionar um ícone personalizado ao executável.
-
+`
     Após a execução do PyInstaller, o arquivo .exe será gerado na pasta dist dentro do diretório do seu projeto.
 
-Executando o Programa
+## **Executando o Programa**
 
 Após gerar o arquivo .exe, basta executá-lo diretamente no seu computador para visualizar o preço atual do Bitcoin e interagir com as funcionalidades.
 
-Printscreens
+## **Printscreens**
 
 ![Tela de Exemplo](https://raw.githubusercontent.com/Suares5k/Bitcoin-Price-Live-Widget/refs/heads/master/Screenshot_129.png)
 ![Tela de Exemplo](https://raw.githubusercontent.com/Suares5k/Bitcoin-Price-Live-Widget/refs/heads/master/Screenshot_130.png)

@@ -24,8 +24,9 @@ Antes de executar o programa, certifique-se de que você possui o **Python** ins
 ```bash
 pip install -r requirements.txt
 ``````````
-`## **Gerando o Arquivo Executável (.exe)**
-    ````
+``
+## **Gerando o Arquivo Executável (.exe)**
+``
     Após garantir que todas as dependências estão instaladas, você pode gerar o arquivo executável usando o PyInstaller.
 ``
     No terminal, navegue até o diretório do seu projeto e execute o comando abaixo:

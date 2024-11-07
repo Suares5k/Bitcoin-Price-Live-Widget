@@ -1,4 +1,3 @@
-# Bitcoin-Price-Live-Widget
 
 # **Programa de Verificação de Preço do Bitcoin (BTC)**
 
@@ -10,6 +9,7 @@ Este é um programa simples em **Python** que permite verificar o preço atual d
 - **Conversão de valores** entre USD e BRL (Real).
 - **Exibição da valorização** percentual do preço do Bitcoin em um intervalo de tempo.
 - Interface gráfica intuitiva.
+- Para mudar Real para Dolar so clicar no nome Real ou Dolar
 
 ## **Como rodar o programa**
 
